@@ -12,4 +12,10 @@ brew cask install virtualbox
 brew cask install vagrant
 ```
 
-Setup dataset by running `vagrant up` on the repository folder (will take some minutes to download the base files).
+Setup the dataset by running `vagrant up` on the repository folder (will take some minutes to download the base files).
+
+You can access the dataset using a PostgreSQL client on:
+ * Host: `localhost:65432`
+ * DB name: `worldbuilding`
+ * Username: `vagrant`
+ * Password: `vagrant`
