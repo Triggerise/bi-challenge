@@ -19,3 +19,6 @@ You can access the dataset using a PostgreSQL client on:
  * DB name: `worldbuilding`
  * Username: `vagrant`
  * Password: `vagrant`
+
+Diagram for quick reference:
+![db_diagram](https://github.com/Triggerise/bi-challenge/blob/master/bi-challenge-diagram.png?raw=true)
