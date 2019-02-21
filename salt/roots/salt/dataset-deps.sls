@@ -43,7 +43,6 @@ Ensure dataset directory exists:
 Ensure dataset 7z file is present:
   cmd.run:
     - name: curl -L https://archive.org/download/stackexchange/{{ database_name }}.stackexchange.com.7z -o /dataset/{{ database_name }}.stackexchange.com.7z
-    - creates: /dataset/{{ database_name }}.stackexchange.com.7z
 
 Ensure dataset 7z file is extracted:
   cmd.run:
