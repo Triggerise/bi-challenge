@@ -22,3 +22,7 @@ You can access the dataset using a PostgreSQL client on:
 
 Diagram for quick reference:
 ![db_diagram](https://github.com/Triggerise/bi-challenge/blob/master/bi-challenge-diagram.png?raw=true)
+
+## Challenge
+
+Go to [Challenge](Challenge.md) for the actual Challenge!
