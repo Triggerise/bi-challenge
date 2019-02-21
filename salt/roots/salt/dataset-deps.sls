@@ -74,3 +74,14 @@ Ensure dataset {{ table }} table is present:
     - runas: vagrant
     - unless: psql {{ database_name }} -c '\d {{ table }}'
 {% endfor %}
+
+Ensure dataset types are present:
+  cmd.run:
+    - name: |
+        cd /dataset/{{ database_name }}.stackexchange.com
+        psql {{ database_name }} < ./sql/final_post.sql
+    - cwd: /usr/local/src
+    - shell: /bin/bash
+    - timeout: 300
+    - runas: vagrant
+    - unless: psql {{ database_name }} -c '\d PostTypes'
